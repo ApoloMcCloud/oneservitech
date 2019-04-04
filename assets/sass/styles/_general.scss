@@ -1,0 +1,15 @@
+.av-hide-for-medium-up{
+	@media screen and(min-width:768px){
+	display: none;
+}
+}
+.av-hide-for-medium-down{
+	@media screen and(max-width:768px){
+		display: none;
+	}
+}
+.av-hide-for-large-down{
+	@media screen and(max-width:1170px){
+		display: none;
+	}
+}
